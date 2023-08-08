@@ -1,0 +1,181 @@
+@media only screen and (max-width: 1300px) and (min-width: 1199px) {}
+
+@media screen and (max-width:1199px) {
+
+    .site-nav li a:hover {
+        color: #8C4448;
+    }
+
+    .site-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 300px;
+        background: #000;
+        transition: .4s cubic-bezier(0, 0, 0.13, 0.61);
+        transform: translateX(-100%);
+        z-index: 9999;
+
+
+
+    }
+
+    .site-nav ul {
+        display: block;
+        margin-top: 40px
+    }
+
+    .site-nav ul li {
+        border-bottom: 1px solid #fff
+    }
+
+    .site-nav ul li a {
+        color: #fff
+    }
+
+    .menu-toggle {
+        display: block
+    }   
+
+    .closed-menu {
+        font-size: 40px;
+        color: #fff;
+        position: absolute;
+        top: -5px;
+        right: 15px;
+        display: inline-block !important;
+    }
+
+    .closed-menu a {
+        color: #fff;
+    }
+
+    .toggle .site-nav {
+        transform: translateX(0)
+    }
+
+    .romaner-card-inner.second .author.text {
+        text-align: left;
+    }
+    .social-icon-iner a {
+        padding: 8px 0;
+        display: block;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .bnr-text h1 {
+        font-size: 5rem;
+    }
+
+    .what-need {
+        padding: 20px 0 40px;
+    }
+
+    .need-u h3 {
+
+        margin-top: 20px;
+    }
+    .miss-out {
+        margin: 40px 0;
+    }
+
+    .romaner-card-inner:first-child .row {
+        flex-direction: column-reverse;
+    }
+
+    .romaner-card-inner:nth-child(3) .row {
+        flex-direction: column-reverse;
+    }
+
+    .romaner-card-inner:nth-child(5) .row {
+        flex-direction: column-reverse;
+    }
+
+    .bottom-img {
+        top: -50px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .bottom-img-one {
+        position: absolute;
+        top: 0;
+        right: 0%;
+        transform: translate(-0%, -50%);
+    }
+
+    .author {
+        padding: 10px 0;
+    }
+
+    footer {
+        padding: 60px 0 30px;
+    }
+
+    .footer-inner {
+        text-align: center;
+    }
+
+    .social-icon-iner ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerp-logo p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .miss-img {
+
+        margin-top: 20px;
+    }
+
+    .biografier-inner:nth-child(2) .row {
+        flex-direction: column-reverse;
+    }
+
+    .biografier-inner:nth-child(4) .row {
+        flex-direction: column-reverse;
+    }
+
+    section.banner.romaner {
+        height: 300px;
+    }
+
+    .author h3 {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .romaner-card-inner {
+        padding: 20px 30px 20px 30px;
+
+    }
+    .sakura {
+        display: none;
+    }
+    section.banner {
+        padding: 106px 0 40px;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .text-miss-out h2 {
+        font-size: 30px;
+
+    }
+    .romaner-bnr-text h1 {
+        font-size: 3rem;
+
+    }
+    .biografier-img img{
+        height: auto;
+    }
+
+}
